@@ -1,0 +1,40 @@
+.dialog {
+  display: flex;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  &__content {
+    background: #fff;
+    margin: auto;
+    border-radius: 3px;
+    box-shadow: 0 0 40px rgba(#000000, 0.3);
+    overflow: hidden;
+    min-width: 600px;
+    max-width: 960px;
+  }
+
+  &__header {
+    background: #ddd;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+
+    h1 {
+      margin: 0;
+      font-size: 18px;
+    }
+  }
+
+  &__body {
+    padding: 32px;
+  }
+
+  &__btn--close {
+    cursor: pointer;
+  }
+}

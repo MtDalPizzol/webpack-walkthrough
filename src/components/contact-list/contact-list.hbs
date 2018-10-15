@@ -1,0 +1,22 @@
+<div class="contact-list">
+  <div class="contact-list__header">
+    <h1 class="contact-list__title">
+      <i class="fas fa-user-friends"></i>
+      {{ title }}
+    </h1>
+    <button class="btn btn-success contact-list__btn--add-contact" type="button">
+      <i class="fas fa-user-plus"></i>
+      Add contact
+    </button>
+  </div>
+  <ul>
+    {{#each items}}
+      <li>{{> contact}}</li>
+    {{else}}
+    <li>
+      <span class="contact-list__empty">No contacts found.</span>
+    </li>
+    {{/each}}
+  </ul>
+  <div class="contact-list__form"></div>
+</div>

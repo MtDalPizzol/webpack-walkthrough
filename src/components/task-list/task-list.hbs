@@ -1,0 +1,22 @@
+<div class="task-list">
+  <div class="task-list__header">
+    <h1 class="task-list__title">
+      <i class="fas fa-tasks"></i>
+      {{ title }}
+    </h1>
+    <button class="btn btn-success task-list__btn--add-task" type="button">
+      <i class="fas fa-plus"></i>
+      Add task
+    </button>
+  </div>
+  <ul>
+    {{#each items}}
+      <li>{{> task}}</li>
+    {{else}}
+    <li>
+      <span class="task-list__empty">No tasks found. Take a break. ;)</span>
+    </li>
+    {{/each}}
+  </ul>
+  <div class="task-list__form"></div>
+</div>

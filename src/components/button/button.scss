@@ -1,0 +1,26 @@
+.btn {
+  padding: 8px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  cursor: pointer;
+
+  &-default {
+    background: #ddd;
+    border: 1px solid #ccc;
+
+    &:hover {
+      background: #e7e7e7;
+    }
+  }
+
+  &-success {
+    background: #2d912b;
+    border: 1px solid #2a8229;
+    color: #fff;
+
+    &:hover {
+      background: #52bb50;
+      background: #4cad4a;
+    }
+  }
+}

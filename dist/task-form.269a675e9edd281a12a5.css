@@ -1,0 +1,32 @@
+.btn {
+  padding: 8px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  cursor: pointer; }
+  .btn-default {
+    background: #ddd;
+    border: 1px solid #ccc; }
+    .btn-default:hover {
+      background: #e7e7e7; }
+  .btn-success {
+    background: #2d912b;
+    border: 1px solid #2a8229;
+    color: #fff; }
+    .btn-success:hover {
+      background: #52bb50;
+      background: #4cad4a; }
+
+input[type=text],
+input[type=password],
+input[type=email],
+input[type=number],
+textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 16px;
+  padding: 12px;
+  box-sizing: border-box; }
+
+
+/*# sourceMappingURL=task-form.269a675e9edd281a12a5.css.map*/

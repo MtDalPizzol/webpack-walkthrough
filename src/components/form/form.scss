@@ -1,0 +1,12 @@
+input[type=text],
+input[type=password],
+input[type=email],
+input[type=number],
+textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 16px;
+  padding: 12px;
+  box-sizing: border-box;
+}
